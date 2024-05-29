@@ -2,31 +2,21 @@
 
 ## chapter 4 : practice
 
+### Example 1: Checking Process Status
+Create a Bash script that checks if a specific process (e.g., sshd) is running and prints a message based on its status.  
 
-## _## chapter 4 : practice_
+### Example 2: Killing Processes by Name
+Create a Bash script that kills all processes with a specified name.
 
-### Example 1:
-Create a Bash script that checks if a specific process (e.g., sshd) is running and prints a message based on its status.
+### Example 3: Logging Background Process Output
+Create a Bash script that launches a background process and logs its output to a file.
+
+## Example 4: Monitoring Multiple Processes ("sshd" "cron" "nginx")
+Create a Bash script that monitors multiple processes and prints a message if any of them are not running.
+
+[CLIECK HERE TO SEE SOLUTONS](./chapter4/README.md)
 
 
-Steps:
-
-    1- Create a Bash script that checks if a specified process is running using the pgrep command.
-    2- Print a message indicating whether the process is running or not.
-    
-> Note: `--pgrep command` in Linux is a powerful tool used to find processes based on their name and other attributes.
-
-Script:
 ```sh
-#!/bin/bash
 
-# Name of the process to check
-PROCESS_NAME="sshd"
-
-# Check if the process is running
-if pgrep "$PROCESS_NAME" > /dev/null; then
-    echo "$PROCESS_NAME is running."
-else
-    echo "$PROCESS_NAME is not running."
-fi
 ```
