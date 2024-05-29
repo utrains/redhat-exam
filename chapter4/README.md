@@ -1,11 +1,9 @@
 ## chapter 4 : practice
 
-
 ## _## chapter 4 : practice_
 
-### Example 1:
+## Example 1:
 Create a Bash script that checks if a specific process (e.g., sshd) is running and prints a message based on its status.
-
 
 Steps:
     1- Create a Bash script that checks if a specified process is running using the pgrep command.
@@ -27,7 +25,7 @@ else
     echo "$PROCESS_NAME is not running."
 fi
 ```
-## Example 1 : Execusion process 
+__Example 1 :__ Execusion process 
 
 ```sh
 cd chapter4
@@ -36,7 +34,7 @@ chmod +x example1.sh
 ```
 ---
 
-### Example 2: Killing Processes by Name
+## Example 2: Killing Processes by Name
 
 Create a Bash script that kills all processes with a specified name.
 
@@ -60,7 +58,7 @@ else
 fi
 ```
 
-## Example 2 : Execusion process 
+__Example 2__ : Execusion process 
 
 ```sh
 cd chapter4
@@ -68,14 +66,13 @@ chmod +x example2.sh
 ./example2.sh
 ```
 
-------------------------------------------------------------------------------------------
+---
 
 ### Example 3: Logging Background Process Output
 
 Create a Bash script that launches a background process and logs its output to a file.
 
 Steps:
-
     1- Create a Bash script that spawns a background process.
     2- The background process should perform a task (e.g., counting to a number) and log its output to a file.
     3- The main script should wait for the background process to complete.
@@ -97,14 +94,13 @@ background_process() {
 
 # Create background process and log its output to a file
 background_process &
-
 # Wait for the background process to complete
 wait
-
 echo "Background process has completed. Check $LOG_FILE for output."
 
 ```
 
+__Example 3__ : Execusion process 
 ```sh
 cd chapter4
 chmod +x example3.sh
@@ -121,8 +117,6 @@ Steps:
     Print a message if any process is not running.
 
 Script:
-
-
 ```sh
 #!/bin/bash
 
@@ -139,6 +133,7 @@ for process in "${PROCESSES[@]}"; do
 done
 ```
 
+__Example 2__ : Execusion process 
 ```sh
 cd chapter4
 chmod +x example4.sh
