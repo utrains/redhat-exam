@@ -17,6 +17,5 @@ Create a Bash script that monitors multiple processes and prints a message if an
 [CLIECK HERE TO SEE SOLUTONS](./chapter4/README.md)
 
 
-```sh
-
-```
+## chapter 8 : practice
+### Example 1: install htop tools
