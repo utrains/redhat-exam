@@ -19,3 +19,4 @@ Create a Bash script that monitors multiple processes and prints a message if an
 
 ## chapter 8 : practice
 ### Example 1: install htop tools
+### Example 2: Interpreting Logs
